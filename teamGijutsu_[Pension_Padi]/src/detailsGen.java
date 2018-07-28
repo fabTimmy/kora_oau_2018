@@ -6,12 +6,10 @@
 
 import java.security.MessageDigest;
 import java.util.*;
-import java.text.SimpleDateFormat;
-import static java.util.Spliterators.iterator;
 
 /**
  *
- * @author Oluwaseun
+ * @author Timmy
  */
 public class detailsGen {
 /***class to set and get all user details 
@@ -26,7 +24,7 @@ private int levelOfWorker;
 private Date dateOfBirth;
 private String genesisHash;
 private String nextOfKin;
-public static double gratuity;
+
     
     //methods to get the details
     public String getName(){
